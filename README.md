@@ -150,6 +150,38 @@ Jika total belanja diatas Rp 500.000 maka akan mendapatkan diskon 10%
         self.order_list = {}
         print("Semua item berhasil dihapus!")
 
+# Test Case
+ 1) Pada case pertama berikut, customer ingin membeli 2 Ayam Goreng seharga @20,000 dan 3 Pasta Gigi seharga @15,000
+
+
+2) Case 2 berikut ternyata customer salah membeli item Pasta Gigi, sehingga harus menghapus nama barang beserta jumlah dan harganya.
+
+
+3) Setelah menghapus semua belanjaan di keranjang, customer membeli lagi barang-barang berikut dan langsung ingin membayarnya ke kasir.
+
+2 Ayam Goreng @20,000
+3 Pasta Gigi @15,000
+1 Mainan Mobil @200,000
+5 Mie Instan @3,000
+
+
+# Kesimpulan 
+Setelah melalui beberapa test case, sistem kasir self-service terbukti berjalan dengan baik. Namun, untuk meningkatkan efektivitas dan efisiensi, terdapat beberapa pengembangan yang dapat dilakukan pada sistem kasir self-service.
+
+1. Database Harga: Membangun database harga akan membantu menghindari kecurangan (fraud) dan memudahkan manajemen harga produk. Dengan menggunakan database harga, Anda dapat menyimpan informasi harga produk secara terpusat, sehingga memudahkan pembaruan harga dan pengelolaan stok.
+
+2. Data Transaksi: Membangun fitur penyimpanan data transaksi setiap pembeli akan membantu dalam melacak riwayat pembelian, menganalisis pola pembelian, dan menyediakan informasi penting untuk keperluan akuntansi dan analisis bisnis. Anda dapat menyimpan data transaksi dalam basis data terpisah atau menggunakan sistem manajemen basis data (Database Management System) untuk menyimpan dan mengelola data secara efisien.
+
+3. User Interface (UI) / Graphical User Interface (GUI): Membangun antarmuka pengguna (user interface) yang intuitif dan user-friendly dapat meningkatkan pengalaman pengguna. Dengan menggunakan GUI, pengguna dapat dengan mudah berinteraksi dengan sistem kasir self-service melalui tampilan visual yang lebih menarik dan interaktif. Ini akan membantu pengguna dalam melakukan pembelian dengan lebih cepat dan mudah.
+
+4. Pengoptimalan Kode: Melakukan pengoptimalan pada kode juga penting untuk meningkatkan efisiensi sistem. Anda dapat mempertimbangkan teknik-teknik seperti caching, penggunaan struktur data yang efisien, dan penggunaan algoritma yang lebih efektif untuk mempercepat kinerja sistem.
+
+Dengan melakukan pengembangan-pengembangan tersebut, sistem kasir self-service akan menjadi lebih canggih, efisien, dan user-friendly, serta dapat memberikan manfaat yang lebih besar bagi pengguna dan pemilik bisnis.
+
+
+
+
+
 
 
 
