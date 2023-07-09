@@ -25,6 +25,7 @@ Berikut adalah langkah-langkah yang dapat dilakukan oleh pelanggan:
 
 # Fungsi
 1. Class Transaction :
+
 class Transaction:
     def __init__(self):
         """"
@@ -34,6 +35,7 @@ class Transaction:
         self.order_list = {}
 
 2. add_item() :
+
 def add_item(self, item_info):
         """
         Fungsi ini adalah untuk menambahkan item baru ke dalam daftar transaksi.
@@ -48,6 +50,7 @@ def add_item(self, item_info):
             print("Input data harus berisi nama item, jumlah item, dan harga item dalam format [nama, jumlah, harga]")
 
 3. delete_item() :
+ 
   def delete_item(self, name):
         """
         Fungsi ini adalah untuk menghapus item dari daftar transaksi berdasarkan nama item.
@@ -69,6 +72,7 @@ def update_item_name(self, name, update_name):
             print(f"Item {name} tidak ditemukan dalam transaksi")
 
 4. check_order() :
+
 def update_item_qty(self, name, update_qty):
         """
         Fungsi ini adalah untuk mengubah jumlah item pada daftar transaksi.
@@ -95,6 +99,7 @@ Jika total belanja diatas Rp 200.000 maka akan mendapatkan diskon 5%.
 Jika total belanja diatas Rp 300.000 maka akan mendapatkan diskon 8%.
 
 Jika total belanja diatas Rp 500.000 maka akan mendapatkan diskon 10% 
+  
    def check_order(self):
         """
         Fungsi ini adalah untuk mengecek daftar item yang telah dibeli dan total harga.
