@@ -21,6 +21,10 @@ Berikut adalah langkah-langkah yang dapat dilakukan oleh pelanggan:
 6. Pelanggan dapat memeriksa total harga pembelian.
 
 # Flowchart
+![alt text](https://github.com/robbyarihidayat/Super_Cashier-Project_Pacmann-/issues/1#issue-1795269698?raw=true)
+
+
+
 
 
 # Fungsi
