@@ -21,7 +21,7 @@ Berikut adalah langkah-langkah yang dapat dilakukan oleh pelanggan:
 6. Pelanggan dapat memeriksa total harga pembelian.
 
 # Flowchart
-![Uploading Screenshot 2023-07-09 at 2.50.29 PM.png…]()
+main
 
 
 
