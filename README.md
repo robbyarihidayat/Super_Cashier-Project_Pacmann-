@@ -37,6 +37,7 @@ class Transaction:
         dan variabel total belanja yang akan di bayarkan pembeli
         """
         self.order_list = {}
+      
 
 2. add_item() :
 
