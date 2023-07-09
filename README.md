@@ -33,7 +33,7 @@ class Transaction:
         """
         self.order_list = {}
 
-add_item() :
+2. add_item() :
 def add_item(self, item_info):
         """
         Fungsi ini adalah untuk menambahkan item baru ke dalam daftar transaksi.
@@ -47,7 +47,7 @@ def add_item(self, item_info):
         except ValueError:
             print("Input data harus berisi nama item, jumlah item, dan harga item dalam format [nama, jumlah, harga]")
 
-delete_item() :
+3. delete_item() :
   def delete_item(self, name):
         """
         Fungsi ini adalah untuk menghapus item dari daftar transaksi berdasarkan nama item.
@@ -68,7 +68,7 @@ def update_item_name(self, name, update_name):
         except KeyError:
             print(f"Item {name} tidak ditemukan dalam transaksi")
 
-check_order() :
+4. check_order() :
 def update_item_qty(self, name, update_qty):
         """
         Fungsi ini adalah untuk mengubah jumlah item pada daftar transaksi.
@@ -88,7 +88,7 @@ def update_item_qty(self, name, update_qty):
 
 
 
-total_price(). Memiliki fungsi untuk menghitung total belanjaan pelanggan beserta dengan diskonnya. Diskon yang diperoleh pelanggan akan mengikuti ketentuan sebagai berikut:
+5. total_price(). Memiliki fungsi untuk menghitung total belanjaan pelanggan beserta dengan diskonnya. Diskon yang diperoleh pelanggan akan mengikuti ketentuan sebagai berikut:
 
 Jika total belanja diatas Rp 200.000 maka akan mendapatkan diskon 5%.
 
@@ -142,8 +142,8 @@ Jika total belanja diatas Rp 500.000 maka akan mendapatkan diskon 10%
         return total_discounted_price
 
 
-reset_transaction()
- def reset_transaction(self):
+6. reset_transaction()
+   def reset_transaction(self):
         """
         Fungsi ini adalah untuk menghapus semua item pada daftar transaksi.
         """
