@@ -161,17 +161,22 @@ Jika total belanja diatas Rp 500.000 maka akan mendapatkan diskon 10%
 
 # Test Case
  1) Pada case pertama berikut, customer ingin membeli 2 Ayam Goreng seharga @20,000 dan 3 Pasta Gigi seharga @15,000
+![alt text](https://github.com/robbyarihidayat/Super_Cashier-Project_Pacmann-/blob/main/Screenshot%202023-07-09%20at%203.34.06%20PM.png?raw=true)
+
 
 
 2) Case 2 berikut ternyata customer salah membeli item Pasta Gigi, sehingga harus menghapus nama barang beserta jumlah dan harganya.
+![alt text](https://github.com/robbyarihidayat/Super_Cashier-Project_Pacmann-/blob/main/Screenshot%202023-07-09%20at%203.37.35%20PM.png?raw=true)
+
 
 
 3) Setelah menghapus semua belanjaan di keranjang, customer membeli lagi barang-barang berikut dan langsung ingin membayarnya ke kasir.
-
 2 Ayam Goreng @20,000
 3 Pasta Gigi @15,000
 1 Mainan Mobil @200,000
 5 Mie Instan @3,000
+![alt text](https://github.com/robbyarihidayat/Super_Cashier-Project_Pacmann-/blob/main/Screenshot%202023-07-09%20at%203.38.46%20PM.png?raw=true)
+
 
 
 # Kesimpulan 
